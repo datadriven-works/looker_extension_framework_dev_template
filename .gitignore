@@ -1,0 +1,44 @@
+# ▶︎ Operating‑system files
+.DS_Store
+Thumbs.db
+
+# ▶︎ Package managers & logs
+node_modules/
+*.log
+npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+
+# ▶︎ Build / coverage artefacts
+dist/
+build/
+coverage/
+.cache/
+webpack-stats.json
+
+# ▶︎ Environment secrets
+.env*
+
+# ▶︎ Editors & IDEs
+.vscode/
+.idea/
+
+# ▶︎ Linting / tooling caches
+.eslintcache
+
+# ▶︎ Terraform state
+.terraform*
+terraform.tfstate*
+*.tfstate
+*.tfstate.*
+
+# ▶︎ Python virtual‑envs (if any)
+.venv/
+venv/
+
+# ▶︎ Project‑specific temporary files
+temp_db.json
+
+# ▶︎ Miscellaneous
+*.pem
+*.p12
